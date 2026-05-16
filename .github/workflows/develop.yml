@@ -16,5 +16,5 @@ jobs:
       environment: dev
       aws-assume-role-arn: "arn:aws:iam::641820721432:role/github-actions-pipeline"
       aws-region: "us-east-1"
-      aws-statefile-s3-bucket: "{{ pipeline-github-150526 }}"
-      aws-lock-dynamodb-table: "{{ table-terraform-lock }}"
+      aws-statefile-s3-bucket: "pipeline-github-150526"
+      aws-lock-dynamodb-table: "table-terraform-lock"
